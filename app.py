@@ -76,7 +76,7 @@ def check_compliance_with_retrieval(state):
     # define the LLM inference model
     llm = ChatOpenAI(
         base_url="http://localhost:8000/v1",
-        model="RedHatAI/Qwen3-0.6B-FP8-dynamic",
+        model="RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
         api_key="local-test-key",
     )
 
