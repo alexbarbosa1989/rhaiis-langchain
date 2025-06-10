@@ -74,3 +74,32 @@ registry.redhat.io/rhaiis/vllm-cuda-rhel9:3.0.0 \
 --max_model_len=4096
 ~~~
 
+### Set up application
+- Clone the application repo:
+~~~
+git clone https://github.com/alexbarbosa1989/rhaiis-langchain.git
+~~~
+- Move to app directory:
+~~~
+cd rhaiis-langchain
+~~~
+- Create a `.evn` file setting the `DOCUMENT_PATH` variable with the actual PDF that will be processed:
+~~~
+echo "DOCUMENT_PATH=/home/user/rhaiis-langchain/docs/example/contract-template.pdf" >> .env
+~~~
+- Create a Python virtual environment:
+~~~
+python3.12 -m venv --upgrade-deps venv
+~~~
+- Activate it:
+~~~
+source venv/bin/activate
+~~~
+- Install the app requirements:
+~~~
+pip install -r requirements.txt
+~~~
+- Run the app:
+~~~
+python app.py
+~~~
