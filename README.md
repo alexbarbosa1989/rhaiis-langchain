@@ -74,7 +74,7 @@ registry.redhat.io/rhaiis/vllm-cuda-rhel9:3.0.0 \
 --max_model_len=4096
 ~~~
 
-### Set up application
+### Set up the application
 - Clone the application repo:
 ~~~
 git clone https://github.com/alexbarbosa1989/rhaiis-langchain.git
