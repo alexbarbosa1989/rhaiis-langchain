@@ -1,8 +1,8 @@
 ## LangChain workflow with RHAIIS model inference
 
 ### Set Up RHAIIS
-O.S Version: Fedora 42
-GPU: NVIDIA RTX 4060 ti 
+- O.S Version: Fedora 41
+- GPU: NVIDIA RTX 4060 ti 
 
 If trying to start the RHAIIS container, get:
 ~~~
