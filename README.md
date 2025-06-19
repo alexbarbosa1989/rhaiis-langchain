@@ -104,4 +104,6 @@ pip install -r requirements.txt
 python app.py
 ~~~
 
-[![Running the application - Demo video](https://i9.ytimg.com/vi_webp/Mr4fYN_hvYY/mqdefault.webp?v=6854144d&sqp=CLCm0MIG&rs=AOn4CLD0kKOeifBjniFs-adKbQpd3ZyYZg)](https://www.youtube.com/watch?v=Mr4fYN_hvYY)
+### YouTube Demo Video
+[![Running the application - Demo video](https://github.com/user-attachments/assets/cfba0bc2-9864-40dd-832b-ff4c154643d5)](https://www.youtube.com/watch?v=Mr4fYN_hvYY)
+
