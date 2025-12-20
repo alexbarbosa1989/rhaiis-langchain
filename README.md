@@ -41,7 +41,7 @@ podman login registry.redhat.io
 ~~~
 - Pull the RHAIIS image:
 ~~~
-podman pull registry.redhat.io/rhaiis/vllm-<gpu_type>-rhel9:3.0.0
+podman pull registry.redhat.io/rhaiis/vllm-cuda-rhel9:3.0.0
 ~~~
 - Create a directory that will be used as container storage for RHAIIS instances:
 ~~~
