@@ -3,8 +3,10 @@ langgraph
 langchain_community
 langchain_openai
 langchain_huggingface
+langchain_classic
 chromadb 
 tiktoken 
 pypdf
 dotenv
 grandalf
+sentence-transformers

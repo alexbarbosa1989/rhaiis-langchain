@@ -41,7 +41,7 @@ podman login registry.redhat.io
 ~~~
 - Pull the RHAIIS image:
 ~~~
-podman pull registry.redhat.io/rhaiis/vllm-cuda-rhel9:3.0.0
+podman pull registry.redhat.io/rhaiis/vllm-cuda-rhel9:latest
 ~~~
 - Create a directory that will be used as container storage for RHAIIS instances:
 ~~~
@@ -69,7 +69,7 @@ podman run -ti --rm --pull=newer \
 --device nvidia.com/gpu=all \
 --security-opt=label=disable \
 --name rhaiis \
-registry.redhat.io/rhaiis/vllm-cuda-rhel9:3.0.0 \
+registry.redhat.io/rhaiis/vllm-cuda-rhel9:latest \
 --model RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8 \
 --max_model_len=4096
 ~~~
@@ -85,7 +85,7 @@ cd rhaiis-langchain
 ~~~
 - Create a `.evn` file setting the `DOCUMENT_PATH` variable with the actual PDF that will be processed:
 ~~~
-echo "DOCUMENT_PATH=/home/user/rhaiis-langchain/docs/example/contract-template.pdf" >> .env
+echo "DOCUMENT_PATH=<local-dir>/rhaiis-langchain/docs/example/contract-template.pdf" >> .env
 ~~~
 - Create a Python virtual environment:
 ~~~
