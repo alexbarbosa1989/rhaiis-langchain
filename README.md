@@ -108,3 +108,4 @@ python app.py
 [![Running the application - Demo video](https://github.com/user-attachments/assets/cfba0bc2-9864-40dd-832b-ff4c154643d5)](https://www.youtube.com/watch?v=Mr4fYN_hvYY)
 
 
+Based on the current demo application, it was created the [Integrate Red Hat AI Inference Server & LangChain in agentic workflows](https://developers.redhat.com/articles/2025/06/19/integrate-red-hat-ai-inference-server-langchain-agentic-workflows#) Red Hat Developer article.
