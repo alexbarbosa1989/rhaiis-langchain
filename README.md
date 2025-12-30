@@ -1,5 +1,7 @@
 ## LangChain workflow with RHAIIS model inference
 
+Red Hat Developer blog https://developers.redhat.com/articles/2025/06/19/integrate-red-hat-ai-inference-server-langchain-agentic-workflows
+
 ### Set Up RHAIIS
 - O.S Version: Fedora 41
 - GPU: NVIDIA RTX 4060 ti 
